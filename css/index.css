@@ -69,7 +69,7 @@ nav{
     padding: 30px 0;
 }
 
-.piccola .bottone{
+.dropbox .bottone{
     margin: 20px 0;
     display: inline-block;
 }
@@ -110,25 +110,42 @@ nav{
     padding: 5px 0px;
 }
 
-.flex-box>.sotto-items-sez1{
-    width: 30%;
+.sez1>.sotto-items-sez1{
+    width: 32%;
     border: 1px solid black;
+    justify-content: space-between;
 }
 
-.sotto-items-sez1>ul{
+.descrizione {
     padding: 15px;
 }
 
 .sotto-items-sez1 li{
-    list-style: none;
-    margin: 15px 0;
+   list-style: none;
+    margin: 12px 0;
+}
+
+.separino{
+    width: 30px;
+    border: 1px solid lightslategray;
+}
+
+.descrizione>div{
+    margin: 30px 0;
 }
 
 /* caratteristiche specifiche anomalo */
 .sotto-items-anomalo{
     border: 1px solid black;
-    margin: 30px 0;
+    margin-top: 20px;
+}
+.anomalo{
     padding: 15px;
+}
+
+.anomalo .grande>strong{
+    margin: 10px 0;
+    display: inline-block;
 }
 
 /* parte 2 */
