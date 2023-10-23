@@ -1,0 +1,41 @@
+/* stili generali */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* caratteristiche header */
+/* caratteristiche nav */
+
+.flex-box{
+    display: flex;
+}
+
+nav{
+    justify-content: space-between;
+    /* debug */
+    height: 60px;
+    background-color: blue;
+}
+
+.items-nav{
+    /* debug */
+    background-color: red;
+    width: 70px;
+}
+
+/* caratteristiche dropbox */
+
+.dropbox{
+    width: 70%;
+    margin: auto;
+    background-color: red;
+    height: 300px;
+}
+
+.sfondo-colorato{
+    background-color: lightskyblue;
+}
+
+/* fine header */
