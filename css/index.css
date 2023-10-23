@@ -83,8 +83,8 @@ nav{
 /* caratteristiche items main */
 .items-main{
     width: 60%;
-    margin:10px auto;
-    margin-top: 100px;
+    margin:60px auto;
+    
 }
 
 /* caratteristiche  sottoitems sez1 */
@@ -155,21 +155,55 @@ nav{
 
 /* parte 4 main  */
 
+.sez4{
+    height: 300px;
+}
+
 .sinistra, .destra{
-    flex-basis: 25vw;
+    flex-basis: 300px;
+    flex-wrap: wrap;
     /* debug */
     background-color: aqua;
 }
 
 .centro{
-    flex-grow: 1;
+    flex-basis: calc(100% - 400px);
     background-color: beige;
+    padding: 30px;
+    overflow-y: auto;
 }
 
-/* parte5 main */
+.centro img{
+    width: 200px;
+}
 
+.contenitore-immagine{
+    width: 50%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.contenitore-immagine img{
+    width: 100%;
+}
+
+/* fondo sezione 4 */
+.fondo{
+    width: 60%;
+    margin: auto;
+   padding: 60px 0;
+}
 .colorato{
     background-color: lightskyblue;
+}
+
+.colorato a{
+    width: 240px;
+    padding: 3px 0px ;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
 }
 
 /* fine main */
