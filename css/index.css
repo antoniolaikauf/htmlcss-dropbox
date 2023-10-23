@@ -147,15 +147,10 @@ nav{
 
 .parte-superiore{
     margin-bottom: 20px;
-    /* debug */
-    /* background-color: aqua;
-    height: 200px; */
 }
 
-.parte-inferiore{
-    /* debug */
-    /* background-color: azure;
-    height: 200px; */
+.parte-inferiore h2{
+    margin-bottom: 40px;
 }
 
 /* parte 4 main  */
