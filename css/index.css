@@ -50,9 +50,6 @@ nav{
 .dropbox, .contatti{
     width: 70%;
     margin: auto;
-    /* debug */
-    background-color: red;
-    height: 300px;
 }
 
 .sfondo-colorato{
@@ -60,32 +57,69 @@ nav{
     background-color: lightskyblue;
 }
 
+.dropbox h1{
+    padding: 30px 0;
+}
+
+.piccola{
+    width: 30%;
+}
+
+.grande{
+    width: 70%;
+}
+
+.grande img{
+    width: 100%;
+}
+
 /* fine header */
 /* inizio main */
 
+#scelte{
+    margin: 40px 0;
+}
+
+/* caratteristiche items main */
 .items-main{
     width: 60%;
     margin:10px auto;
-    /* debug */
-    height: 400px;
-    background-color: red;
+    margin-top: 50px;
+}
+
+/* caratteristiche  sottoitems sez1 */
+
+.sez1{
+    justify-content: space-between;
+}
+
+.specifico{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 5px 0px;
+}
+
+.flex-box>.sotto-items-sez1{
+    width: 30%;
     border: 1px solid black;
 }
 
-/* sottoitems */
-
-.flex-box>.sotto-items{
-    width: calc(100% / 3);
-    /* debug */
-    height: 70px;
+.sotto-items-sez1>ul{
+    padding: 15px;
 }
 
-.sotto-items{
-    /* debug */
-    background-color: red;
+.sotto-items-sez1 li{
+    list-style: none;
+    margin: 15px 0;
+}
+
+
+.sotto-items-anomalo{
     border: 1px solid black;
-    height: 200px;
+    margin: 30px 0;
+    padding: 15px;
 }
+
 
 /* parte 3 main */
 
