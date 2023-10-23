@@ -47,7 +47,7 @@ nav{
 
 /* caratteristiche dropbox */
 
-.dropbox, .contatti{
+.dropbox{
     width: 70%;
     margin: auto;
 }
@@ -224,7 +224,37 @@ nav{
 
 /* fine main */
 /* inizio footer */
+
+
+footer{
+    background-color: black;
+    padding: 50px 0px;
+}
+
+.contatti{
+    margin:auto;
+    width: 70%;
+}
+
+.contatti a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 0;
+    display: inline-block;
+}
+
+
 .flex-box>ul{
     flex-basis: calc(100% / 5);
     list-style: none;
+}
+
+.sbiadito a{
+    color: rgba(255, 255, 255, 0.457);
+}
+
+.barra{
+    border: 1px solid white;
+    width: 200px;
+    margin: 40px 0;
 }
