@@ -135,16 +135,27 @@ nav{
 
 /* parte 3 main */
 
+.sotto-items{
+    width: calc(100% / 3);
+    padding: 0px 10px;
+    margin: 20px 0;
+}
+
+.sotto-items img{
+    width: 100%;
+}
+
 .parte-superiore{
+    margin-bottom: 20px;
     /* debug */
-    background-color: aqua;
-    height: 200px;
+    /* background-color: aqua;
+    height: 200px; */
 }
 
 .parte-inferiore{
     /* debug */
-    background-color: azure;
-    height: 200px;
+    /* background-color: azure;
+    height: 200px; */
 }
 
 /* parte 4 main  */
