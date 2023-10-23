@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+:root{
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* caratteristiche header */
 /* caratteristiche nav */
 
@@ -14,6 +18,9 @@
 
 nav{
     justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    width: 100%;
     /* debug */
     height: 60px;
     background-color: blue;
@@ -27,15 +34,82 @@ nav{
 
 /* caratteristiche dropbox */
 
-.dropbox{
+.dropbox, .contatti{
     width: 70%;
     margin: auto;
+    /* debug */
     background-color: red;
     height: 300px;
 }
 
 .sfondo-colorato{
+    padding-top: 60px;
     background-color: lightskyblue;
 }
 
 /* fine header */
+/* inizio main */
+
+.items-main{
+    width: 60%;
+    margin:10px auto;
+    /* debug */
+    height: 400px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+/* sottoitems */
+
+.flex-box>.sotto-items{
+    width: calc(100% / 3);
+    /* debug */
+    height: 70px;
+}
+
+.sotto-items{
+    /* debug */
+    background-color: red;
+    border: 1px solid black;
+    height: 200px;
+}
+
+/* parte 3 main */
+
+.parte-superiore{
+    /* debug */
+    background-color: aqua;
+    height: 200px;
+}
+
+.parte-inferiore{
+    /* debug */
+    background-color: azure;
+    height: 200px;
+}
+
+/* parte 4 main  */
+
+.sinistra, .destra{
+    flex-basis: 25vw;
+    /* debug */
+    background-color: aqua;
+}
+
+.centro{
+    flex-grow: 1;
+    background-color: beige;
+}
+
+/* parte5 main */
+
+.colorato{
+    background-color: lightskyblue;
+}
+
+/* fine main */
+/* inizio footer */
+.flex-box>ul{
+    flex-basis: calc(100% / 5);
+    list-style: none;
+}
