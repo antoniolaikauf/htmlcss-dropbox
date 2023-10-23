@@ -206,6 +206,22 @@ nav{
     text-align: center;
 }
 
+/* parte 5 */
+
+.sez5>div{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+}
+
+.domande{
+    justify-content: space-between;
+}
+
+.sez5 h2{
+    margin-bottom: 40px;
+}
+
 /* fine main */
 /* inizio footer */
 .flex-box>ul{
