@@ -9,6 +9,16 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
+.bottone{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
 /* caratteristiche header */
 /* caratteristiche nav */
 
@@ -21,15 +31,18 @@ nav{
     position: fixed;
     top: 0px;
     width: 100%;
-    /* debug */
-    height: 60px;
-    background-color: blue;
+    background-color: white;
+    padding: 10px;
+    align-items: center;
 }
 
-.items-nav{
-    /* debug */
-    background-color: red;
-    width: 70px;
+
+.items-nav a{
+   margin: 0 5px;
+}
+
+.items-nav img{
+    width: 100px;
 }
 
 /* caratteristiche dropbox */
