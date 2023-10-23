@@ -11,6 +11,7 @@
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 .bottone{
@@ -42,6 +43,7 @@ nav{
     background-color: white;
     padding: 15px 0;
     align-items: center;
+    z-index: 500;
 }
 
 
@@ -55,8 +57,8 @@ nav{
 
 /* caratteristiche dropbox */
 
-.dropbox{
-    width: 70%;
+.dropbox, .contatti{
+    width: 80%;
     margin: auto;
 }
 
@@ -87,15 +89,14 @@ nav{
 /* fine header */
 /* inizio main */
 
-#scelte{
-    margin: 40px 0;
-}
-
 /* caratteristiche items main */
 .items-main{
-    width: 60%;
+    width: 70%;
     margin:60px auto;
-    
+}
+
+#scelte{
+    margin: 40px 0;
 }
 
 /* caratteristiche  sottoitems sez1 */
@@ -113,25 +114,29 @@ nav{
 .sez1>.sotto-items-sez1{
     width: 32%;
     border: 1px solid black;
-    justify-content: space-between;
 }
 
+/* caratteristiche  sezione descrizione  */
 .descrizione {
-    padding: 15px;
+    padding: 20px;
 }
 
-.sotto-items-sez1 li{
-   list-style: none;
+.descrizione li{
     margin: 12px 0;
+    list-style-image: url(file:///C:/Users/antonio/Downloads/person_FILL0_wght400_GRAD0_opsz24.svg);
+}
+
+.descrizione ul{
+    padding-left: 30px;
+}
+
+.descrizione>div{
+    margin: 30px 0;
 }
 
 .separino{
     width: 30px;
     border: 1px solid lightslategray;
-}
-
-.descrizione>div{
-    margin: 30px 0;
 }
 
 /* caratteristiche specifiche anomalo */
@@ -162,7 +167,7 @@ nav{
 }
 
 /* parte 3 main */
-
+/* descizione sotto-items sezione 3 */
 .sotto-items{
     width: calc(100% / 3);
     padding: 0px 10px;
@@ -173,12 +178,12 @@ nav{
     width: 100%;
 }
 
-.parte-superiore{
-    margin-bottom: 20px;
+.sotto-items p{
+    margin-top: 15px;
 }
-
-.parte-inferiore h2{
-    margin-bottom: 40px;
+/* patrte inferiore sezione 3 */
+.parte-superiore, .parte-inferiore h2{
+    margin-bottom: 60px;
 }
 
 /* parte 4 main  */
@@ -186,17 +191,31 @@ nav{
 .sez4{
     height: 300px;
 }
+/* caratteristiche destra e sinistra sezione 4 */
 
 .sinistra, .destra{
     flex-basis: 300px;
     flex-wrap: wrap;
-    /* debug */
-    background-color: aqua;
 }
 
+.contenitore-immagine{
+    width: 50%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenitore-immagine img{
+    width: 60%;
+    filter: invert(1);
+}
+
+/* caratteristiche centro sezione 4 */
+
 .centro{
-    flex-basis: calc(100% - 400px);
-    background-color: beige;
+    flex-basis: calc(100% - 600px);
+    background-color: lightslategray;
     padding: 30px;
     overflow-y: auto;
 }
@@ -205,22 +224,45 @@ nav{
     width: 200px;
 }
 
-.contenitore-immagine{
-    width: 50%;
-    height: 150px;
-    display: flex;
-    align-items: center;
+/* colori loghi */
+.designit{
+    background-color: green;
 }
 
-.contenitore-immagine img{
-    width: 100%;
+.arizona{
+    background-color: brown;
 }
+
+.florida{
+    background-color: blue;
+}
+
+.topps{
+    background-color: red;
+}
+
+.bicycle{
+    background-color: red;
+}
+
+.hearst{
+    background-color: lightblue;
+}
+
+.lonely{
+    background-color: blue;
+}
+
+.channel{
+    background-color: yellow;
+}
+
 
 /* fondo sezione 4 */
 .fondo{
-    width: 60%;
+    width: 70%;
     margin: auto;
-   padding: 60px 0;
+    padding: 80px 0;
 }
 .colorato{
     background-color: lightskyblue;
@@ -259,10 +301,7 @@ footer{
     padding: 50px 0px;
 }
 
-.contatti{
-    margin:auto;
-    width: 70%;
-}
+/* caratterisctiche contatti con dropbox */
 
 .contatti a{
     color: white;
@@ -282,7 +321,7 @@ footer{
 }
 
 .barra{
-    border: 1px solid white;
+    border: 1px solid  rgba(255, 255, 255, 0.457);
     width: 200px;
     margin: 40px 0;
 }
