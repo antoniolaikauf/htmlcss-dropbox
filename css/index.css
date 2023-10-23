@@ -19,6 +19,14 @@ a{
     padding: 5px;
 }
 
+.piccola{
+    width: 30%;
+}
+
+.grande{
+    width: 70%;
+}
+
 /* caratteristiche header */
 /* caratteristiche nav */
 
@@ -32,13 +40,13 @@ nav{
     top: 0px;
     width: 100%;
     background-color: white;
-    padding: 10px;
+    padding: 15px 0;
     align-items: center;
 }
 
 
 .items-nav a{
-   margin: 0 5px;
+   margin: 0 8px;
 }
 
 .items-nav img{
@@ -61,12 +69,15 @@ nav{
     padding: 30px 0;
 }
 
-.piccola{
-    width: 30%;
+.piccola .bottone{
+    margin: 20px 0;
+    display: inline-block;
 }
 
-.grande{
-    width: 70%;
+.piccola i{
+    margin-top: 20px;
+    font-size: 30px;
+    color: black;
 }
 
 .grande img{
