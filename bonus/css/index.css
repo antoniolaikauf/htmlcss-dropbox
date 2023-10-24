@@ -50,7 +50,6 @@ nav{
     top: 0px;
     width: 100%;
     background-color: white;
-    padding: 15px 0;
     align-items: center;
     z-index: 500;
 }
@@ -366,4 +365,38 @@ footer{
 
 .dropbox .piccola{
     padding-top: 30px;
+}
+
+
+/* drop */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.drop{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 400;
+    margin-top: 15px;
+}
+
+.drop a{
+    display: block;
+    background-color: white;
+    padding: 10px 5px;
+    
+}
+
+.dropdown:hover .drop{
+    display: block;
+}
+
+.dropdown:hover{
+    border-bottom: 1px solid black;
+}
+
+.items-nav{
+    padding: 15px 0;
 }
