@@ -28,6 +28,10 @@ a{
     width: 70%;
 }
 
+h1{
+    font-size: 40px;
+}
+
 /* caratteristiche header */
 /* caratteristiche nav */
 
@@ -64,7 +68,7 @@ nav{
 
 .sfondo-colorato{
     padding-top: 60px;
-    background-color: lightskyblue;
+    background-color: lightblue;
 }
 
 .dropbox h1{
@@ -119,6 +123,11 @@ nav{
 /* caratteristiche  sezione descrizione  */
 .descrizione {
     padding: 20px;
+}
+
+/*  caratteristiche pacchetto  */
+.pacchetto>div{
+    margin-top: 12px;
 }
 
 /* descrizione lista ul e  icone   */
@@ -216,11 +225,25 @@ nav{
     filter: invert(1);
 }
 
+/* parte sinistra anomalo designt */
+
+#anomalo-designt{
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    line-height: 135px;
+    background-color: #5da85d;
+}
+
+#anomalo-designt img{
+    vertical-align: middle;
+}
+
 /* caratteristiche centro sezione 4 */
 
 .centro{
     flex-basis: calc(100% - 600px);
-    background-color: lightslategray;
+    background-color: #d4dae0;
     padding: 30px;
     overflow-y: auto;
 }
@@ -231,15 +254,15 @@ nav{
 
 /* colori loghi */
 .designit{
-    background-color: green;
+    background-color: #9cd89c;
 }
 
 .arizona{
-    background-color: brown;
+    background-color: #660808;
 }
 
 .florida{
-    background-color: blue;
+    background-color: #337bcc;
 }
 
 .topps{
@@ -247,7 +270,7 @@ nav{
 }
 
 .bicycle{
-    background-color: red;
+    background-color: #b80303;
 }
 
 .hearst{
@@ -255,11 +278,11 @@ nav{
 }
 
 .lonely{
-    background-color: blue;
+    background-color: #171765;
 }
 
 .channel{
-    background-color: yellow;
+    background-color: #f2bf00;
 }
 
 
@@ -270,7 +293,7 @@ nav{
     padding: 80px 0;
 }
 .colorato{
-    background-color: lightskyblue;
+    background-color: lightblue;
 }
 
 .colorato a{
