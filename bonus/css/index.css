@@ -1,0 +1,369 @@
+/* stili generali */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* caratteristiche bottone */
+.bottone-blu{
+    background-color: blue;
+    color: white;
+    padding: 5px 8px;
+}
+
+.lungo-bottone{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 0;
+}
+
+/* caratteristiche seioni divise  */
+.piccola{
+    width: 35%;
+}
+
+.grande{
+    width: 65%;
+}
+
+.flex-box{
+    display: flex;
+}
+
+/* caratteristiche header */
+/* caratteristiche nav */
+
+nav{
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    padding: 15px 0;
+    align-items: center;
+    z-index: 500;
+}
+
+
+.items-nav a{
+   margin: 0 8px;
+}
+
+.items-nav img{
+    width: 100px;
+}
+
+/* caratteristiche dropbox */
+/* caratteristiche contatti footer e dropbox  */
+.dropbox, .contatti{
+    width: 80%;
+    margin: auto;
+}
+
+.sfondo-colorato{
+    padding-top: 60px;
+    background-color: lightblue;
+}
+
+.dropbox h1{
+    padding: 30px 0;
+    font-size: 40px;
+}
+
+.dropbox .bottone-blu{
+    margin: 30px 0;
+    display: inline-block;
+}
+
+.piccola i{
+    margin-top: 50px;
+    font-size: 30px;
+    color: black;
+}
+
+.grande img{
+    width: 100%;
+}
+
+/* fine header */
+/* inizio main */
+
+/* caratteristiche items main */
+.items-main{
+    width: 70%;
+    margin: auto;
+    padding: 60px 0;
+}
+/* inizio parte 1 */
+/* caratteristiche  sottoitems sez1 */
+
+.sez1{
+    justify-content: space-between;
+}
+
+#scelte{
+    margin: 40px 0;
+}
+
+.specifico{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 5px 0px;
+}
+
+.sez1>.sotto-items-sez1{
+    width: 32%;
+    border: 1px solid black;
+}
+
+/* caratteristiche  descrizione destro sotto sez1  */
+.descrizione {
+    padding: 20px;
+}
+
+/*  caratteristiche pacchetto  */
+.pacchetto>div{
+    margin-top: 12px;
+}
+
+/* descrizione lista ul e  icone   */
+.fa-solid{
+    margin-right: 5px;
+}
+
+.fa-check{
+    color: blue;
+}
+
+.descrizione li{
+    margin: 12px 0;
+    list-style: none;
+}
+
+.descrizione>div{
+    margin: 30px 0;
+}
+
+.separino{
+    width: 40px;
+    border: 1px solid lightslategray;
+}
+
+/* caratteristiche specifiche anomalo */
+.sotto-items-anomalo{
+    border: 1px solid black;
+    margin-top: 20px;
+}
+.anomalo{
+    padding: 20px;
+}
+
+.anomalo .grande>strong{
+    margin: 10px 0 30px;
+    display: inline-block;
+}
+
+/* parte 2 */
+
+.sez2>.piccola{
+    padding: 30px 20px;
+}
+
+.sez2 a{
+    padding: 5px 8px;
+    border: 1px solid black;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* parte 3 main */
+/* descizione sotto-items sezione 3 */
+.sotto-items{
+    width: calc(100% / 3 - 20px);
+    margin: 20px 10px;
+}
+
+.sotto-items img{
+    width: 100%;
+}
+
+.sotto-items p{
+    margin-top: 15px;
+}
+ 
+.parte-superiore, .parte-inferiore h2{
+    margin-bottom: 60px;
+}
+
+.anomalo-link{
+    color: blue;
+    text-decoration: underline;
+}
+
+/* parte 4 main  */
+
+.sez4{
+    height: 300px;
+}
+/* caratteristiche destra e sinistra sezione 4 */
+
+.sinistra, .destra{
+    flex-basis: 300px;
+    flex-wrap: wrap;
+}
+
+.contenitore-immagine{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenitore-immagine img{
+    width: 60%;
+    filter: invert(1);
+}
+
+/* parte sinistra anomalo designt */
+
+#anomalo-designt{
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    line-height: 135px;
+    background-color: #5da85d;
+}
+
+#anomalo-designt img{
+    vertical-align: middle;
+}
+
+/* caratteristiche centro sezione 4 */
+
+.centro{
+    flex-basis: calc(100% - 600px);
+    background-color: #d4dae0;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.centro img{
+    width: 200px;
+}
+
+.centro>div{
+    margin: 20px 0;
+}
+
+/* colori loghi */
+.designit{
+    background-color: #9cd89c;
+}
+
+.arizona{
+    background-color: #660808;
+}
+
+.florida{
+    background-color: #337bcc;
+}
+
+.topps{
+    background-color: red;
+}
+
+.bicycle{
+    background-color: #b80303;
+}
+
+.hearst{
+    background-color: lightblue;
+}
+
+.lonely{
+    background-color: #171765;
+}
+
+.channel{
+    background-color: #f2bf00;
+}
+
+/* fondo sezione 4 */
+.colorato{
+    background-color: lightblue;
+}
+
+.bianco{
+    background-color: white;
+}
+
+/* parte 5 */
+
+.sez5>div{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+}
+
+.domande{
+    justify-content: space-between;
+}
+
+.sez5 h2{
+    margin-bottom: 40px;
+}
+
+/* fine main */
+/* inizio footer */
+
+
+footer{
+    background-color: black;
+    padding: 50px 0px;
+}
+
+/* caratterisctiche contatti con dropbox */
+
+.contatti a{
+    color: white;
+    padding: 5px 0;
+    display: inline-block;
+}
+
+.flex-box>ul{
+    flex-basis: calc(100% / 5);
+    list-style: none;
+}
+
+.sbiadito a{
+    color: rgba(255, 255, 255, 0.457);
+}
+
+.barra{
+    border: 1px solid  rgba(255, 255, 255, 0.457);
+    width: 200px;
+    margin: 40px 0;
+}
+
+
+/* bonus */
+
+.grande img{
+    transform: translate(0px, 30px);
+}
+
+.dropbox .piccola{
+    padding-top: 30px;
+}
