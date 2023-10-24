@@ -121,13 +121,18 @@ nav{
     padding: 20px;
 }
 
-.descrizione li{
-    margin: 12px 0;
-    list-style-image: url(file:///C:/Users/antonio/Downloads/person_FILL0_wght400_GRAD0_opsz24.svg);
+/* descrizione lista ul e  icone   */
+.fa-solid{
+    margin-right: 5px;
 }
 
-.descrizione ul{
-    padding-left: 30px;
+.fa-check{
+    color: blue;
+}
+
+.descrizione li{
+    margin: 12px 0;
+    list-style: none;
 }
 
 .descrizione>div{
