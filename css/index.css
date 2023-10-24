@@ -14,30 +14,35 @@ a{
     color: black;
 }
 
-.bottone{
+/* caratteristiche bottone */
+.bottone-blu{
     background-color: blue;
     color: white;
-    padding: 5px;
+    padding: 5px 8px;
 }
 
+.lungo-bottone{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 0;
+}
+
+/* caratteristiche seioni divise  */
 .piccola{
-    width: 30%;
+    width: 35%;
 }
 
 .grande{
-    width: 70%;
+    width: 65%;
 }
-
-h1{
-    font-size: 40px;
-}
-
-/* caratteristiche header */
-/* caratteristiche nav */
 
 .flex-box{
     display: flex;
 }
+
+/* caratteristiche header */
+/* caratteristiche nav */
 
 nav{
     justify-content: space-between;
@@ -60,7 +65,7 @@ nav{
 }
 
 /* caratteristiche dropbox */
-
+/* caratteristiche contatti footer e dropbox  */
 .dropbox, .contatti{
     width: 80%;
     margin: auto;
@@ -73,15 +78,16 @@ nav{
 
 .dropbox h1{
     padding: 30px 0;
+    font-size: 40px;
 }
 
-.dropbox .bottone{
-    margin: 20px 0;
+.dropbox .bottone-blu{
+    margin: 30px 0;
     display: inline-block;
 }
 
 .piccola i{
-    margin-top: 20px;
+    margin-top: 50px;
     font-size: 30px;
     color: black;
 }
@@ -96,17 +102,18 @@ nav{
 /* caratteristiche items main */
 .items-main{
     width: 70%;
-    margin:60px auto;
+    margin: auto;
+    padding: 60px 0;
 }
-
-#scelte{
-    margin: 40px 0;
-}
-
+/* inizio parte 1 */
 /* caratteristiche  sottoitems sez1 */
 
 .sez1{
     justify-content: space-between;
+}
+
+#scelte{
+    margin: 40px 0;
 }
 
 .specifico{
@@ -120,7 +127,7 @@ nav{
     border: 1px solid black;
 }
 
-/* caratteristiche  sezione descrizione  */
+/* caratteristiche  descrizione destro sotto sez1  */
 .descrizione {
     padding: 20px;
 }
@@ -149,7 +156,7 @@ nav{
 }
 
 .separino{
-    width: 30px;
+    width: 40px;
     border: 1px solid lightslategray;
 }
 
@@ -159,11 +166,11 @@ nav{
     margin-top: 20px;
 }
 .anomalo{
-    padding: 15px;
+    padding: 20px;
 }
 
 .anomalo .grande>strong{
-    margin: 10px 0;
+    margin: 10px 0 30px;
     display: inline-block;
 }
 
@@ -174,7 +181,7 @@ nav{
 }
 
 .sez2 a{
-    padding: 5px;
+    padding: 5px 8px;
     border: 1px solid black;
     margin-top: 20px;
     display: inline-block;
@@ -183,9 +190,8 @@ nav{
 /* parte 3 main */
 /* descizione sotto-items sezione 3 */
 .sotto-items{
-    width: calc(100% / 3);
-    padding: 0px 10px;
-    margin: 20px 0;
+    width: calc(100% / 3 - 20px);
+    margin: 20px 10px;
 }
 
 .sotto-items img{
@@ -195,9 +201,14 @@ nav{
 .sotto-items p{
     margin-top: 15px;
 }
-/* patrte inferiore sezione 3 */
+ 
 .parte-superiore, .parte-inferiore h2{
     margin-bottom: 60px;
+}
+
+#anomalo-link{
+    color: blue;
+    text-decoration: underline;
 }
 
 /* parte 4 main  */
@@ -214,7 +225,7 @@ nav{
 
 .contenitore-immagine{
     width: 50%;
-    height: 150px;
+    height: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -244,12 +255,16 @@ nav{
 .centro{
     flex-basis: calc(100% - 600px);
     background-color: #d4dae0;
-    padding: 30px;
+    padding: 20px;
     overflow-y: auto;
 }
 
 .centro img{
     width: 200px;
+}
+
+.centro>div{
+    margin: 20px 0;
 }
 
 /* colori loghi */
@@ -285,23 +300,13 @@ nav{
     background-color: #f2bf00;
 }
 
-
 /* fondo sezione 4 */
-.fondo{
-    width: 70%;
-    margin: auto;
-    padding: 80px 0;
-}
 .colorato{
     background-color: lightblue;
 }
 
-.colorato a{
-    width: 240px;
-    padding: 3px 0px ;
-    display: inline-block;
+.bianco{
     background-color: white;
-    text-align: center;
 }
 
 /* parte 5 */
@@ -333,11 +338,9 @@ footer{
 
 .contatti a{
     color: white;
-    text-decoration: none;
     padding: 5px 0;
     display: inline-block;
 }
-
 
 .flex-box>ul{
     flex-basis: calc(100% / 5);
