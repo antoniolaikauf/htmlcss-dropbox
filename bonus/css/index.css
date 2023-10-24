@@ -432,6 +432,7 @@ footer{
     text-decoration: underline;
 }
 
+/* animazione */
 .sotto-items-sez1, .sotto-items-anomalo{
     transition-duration:2s ;
     transition-timing-function: ease-in;
