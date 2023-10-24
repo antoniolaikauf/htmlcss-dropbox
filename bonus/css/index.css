@@ -371,7 +371,7 @@ footer{
 /* drop */
 .dropdown {
     position: relative;
-    display: inline-block;
+    display: inline-block; 
 }
 
 .drop{
@@ -389,9 +389,11 @@ footer{
     
 }
 
+
 .dropdown:hover .drop{
     display: block;
 }
+
 
 .dropdown:hover{
     border-bottom: 1px solid black;
@@ -399,4 +401,21 @@ footer{
 
 .items-nav{
     padding: 15px 0;
+}
+
+
+/* drop domande */
+
+.scendi{
+    display: none;
+}
+
+.scendi{
+    transition: all 6s;
+    transition-timing-function: ease-in;
+}
+
+.over:hover .scendi{
+    display: block;
+    margin-right: 70px;
 }
