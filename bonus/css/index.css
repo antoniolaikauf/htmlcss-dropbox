@@ -162,7 +162,7 @@ nav{
 /* caratteristiche specifiche anomalo */
 .sotto-items-anomalo{
     border: 1px solid black;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .anomalo{
     padding: 20px;
@@ -415,7 +415,50 @@ footer{
     transition-timing-function: ease-in;
 }
 
-.over:hover .scendi{
+.domande:hover .scendi{
     display: block;
     margin-right: 70px;
+}
+
+.domande:hover i{
+    transform: rotate(180deg);
+}
+
+.over{
+    justify-content: space-between;
+}
+
+.contatti a:hover{
+    text-decoration: underline;
+}
+
+.sotto-items-sez1, .sotto-items-anomalo{
+    transition-duration:2s ;
+    transition-timing-function: ease-in;
+}
+
+.sotto-items-sez1:hover, .sotto-items-anomalo:hover{
+   transform: scale(1.05) ;
+   animation-name: esempio;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+}
+
+@keyframes esempio {
+    0%{
+        background-color: white;
+    }
+    25%{
+        background-color: rgb(240, 87, 87);
+    }
+    50%{
+        background-color: rgb(98, 98, 243);
+    }
+    75%{
+        background-color:  rgb(240, 87, 87);
+    }
+    100%{
+        background-color: white;
+    }
 }
