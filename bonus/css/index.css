@@ -55,13 +55,18 @@ nav{
 }
 
 
-.items-nav a{
-   margin: 0 8px;
+.items-nav .bordo{
+   padding: 15px 8px;
+   display: inline-block;
 }
 
 .items-nav img{
     width: 100px;
 }
+
+/* .items-nav{
+    padding: 15px 0;
+ }  */
 
 /* caratteristiche dropbox */
 /* caratteristiche contatti footer e dropbox  */
@@ -358,7 +363,7 @@ footer{
 
 
 /* bonus */
-
+/* immagine che esce */
 .grande img{
     transform: translate(0px, 30px);
 }
@@ -368,7 +373,7 @@ footer{
 }
 
 
-/* drop */
+/* drop nav */
 .dropdown {
     position: relative;
     display: inline-block; 
@@ -379,14 +384,13 @@ footer{
     position: absolute;
     min-width: 160px;
     z-index: 400;
-    margin-top: 15px;
+    margin-top: 2px;
 }
 
 .drop a{
     display: block;
     background-color: white;
-    padding: 10px 5px;
-    
+    padding: 15px 8px;
 }
 
 
@@ -395,12 +399,14 @@ footer{
 }
 
 
-.dropdown:hover{
-    border-bottom: 1px solid black;
+.dropdown:hover, .bordo:hover{
+    border-bottom: 2px solid black;
+    
 }
 
-.items-nav{
-    padding: 15px 0;
+.drop a:hover{
+    background-color: rgb(221, 228, 235);
+    
 }
 
 
