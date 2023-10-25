@@ -1,0 +1,66 @@
+/* stili generali */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.flex-items{
+    display: flex;
+}
+/* stili header */
+
+header{
+    padding-top: 50px;
+}
+
+.contenitore{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    /* debug */
+    height: 300px;
+    background-color: red;
+}
+
+/* stili main */
+
+.utilità>div{
+    width: calc(100% / 4 - 40px);
+    margin: 20px;
+    /* debug */
+    background-color: blue;
+    height: 200px;
+}
+
+/* seconda parte main */
+
+.utilizzo>div{
+    width: calc(100% / 2 - 40px);
+    margin: 20px;
+    /* debug */
+    background-color: blue;
+    height: 200px;
+}
+
+/* terza parte main */
+
+.esperienze>div{
+        width: calc(100% / 2 - 40px);
+        margin: 20px;
+        /* debug */
+        background-color: blue;
+        height: 200px;
+}
+
+/* footer */
+footer ul{
+    width: calc(100% / 5 - 40px);
+    margin: 20px;
+    /* debug */
+    background-color: blue;
+}
+
+footer{
+    padding: 0 20px;
+}
