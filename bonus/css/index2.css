@@ -103,21 +103,28 @@ h2{
 }
 
 /* terza parte main */
+.esperienze{
+    background-color: #2f2c2c;
+}
 
 .esperienze>div{
-        width: calc(100% / 2 - 40px);
-        margin: 20px;
-        /* debug */
-        background-color: blue;
-        height: 200px;
+     width: calc(100% / 2 - 40px);
+     margin: 20px;
+}
+
+.esperienze-immagine img{
+    width: 100%;
+    padding: 30px;
+}
+
+.esperienze-descrizione{
+    padding-top: 50px;
 }
 
 /* footer */
 footer ul{
     width: calc(100% / 5 - 40px);
     margin: 20px;
-    /* debug */
-    background-color: blue;
 }
 
 footer{
