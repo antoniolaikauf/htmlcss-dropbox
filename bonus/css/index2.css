@@ -11,6 +11,7 @@
 
 body{
     background-color: black;
+    color: white;
 }
 /* stili header */
 
@@ -21,7 +22,6 @@ header{
 /* caratteristiche items dentro header */
 header h1{
     padding: 0 150px;
-    color: white;
 }
 
 header p{
@@ -49,13 +49,22 @@ header p{
 
 
 /* stili main */
+h2{
+    text-align: center;
+}
+
+main>section{
+    padding: 20px;
+}
+/* sezione 1 */
 
 .utilità>div{
     width: calc(100% / 4 - 40px);
     margin: 20px;
-    /* debug */
-    background-color: blue;
-    height: 200px;
+}
+
+.utilità img{
+    width: 50%;
 }
 
 /* seconda parte main */
