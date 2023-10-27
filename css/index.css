@@ -358,3 +358,5 @@ footer{
     width: 200px;
     margin: 40px 0;
 }
+
+/* utilizzare al posto dei px per le immagini quadrat il vw sia per il contenitore che contiene i quadrati sia per i la forma dei quadrati  */
